@@ -29,6 +29,7 @@
 		1919C6BB19BED3B5005C941E /* background_f1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1919C6B919BED3B5005C941E /* background_f1.png */; };
 		1919C6BD19BED3DA005C941E /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919C6BC19BED3DA005C941E /* Background.swift */; };
 		1919C6BF19BED9C5005C941E /* BitMaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1919C6BE19BED9C5005C941E /* BitMaskType.swift */; };
+		1919C6C219BEE62A005C941E /* pic.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1919C6C119BEE62A005C941E /* pic.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		1919C6B919BED3B5005C941E /* background_f1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_f1.png; sourceTree = "<group>"; };
 		1919C6BC19BED3DA005C941E /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		1919C6BE19BED9C5005C941E /* BitMaskType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitMaskType.swift; sourceTree = "<group>"; };
+		1919C6C119BEE62A005C941E /* pic.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pic.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		1919C66E19BE9486005C941E = {
 			isa = PBXGroup;
 			children = (
+				1919C6C019BEE62A005C941E /* demoPic */,
 				1919C6B719BED3B5005C941E /* background */,
 				1919C6A619BE960A005C941E /* sound */,
 				1919C69D19BE950C005C941E /* atlas */,
@@ -184,6 +187,14 @@
 			path = background;
 			sourceTree = "<group>";
 		};
+		1919C6C019BEE62A005C941E /* demoPic */ = {
+			isa = PBXGroup;
+			children = (
+				1919C6C119BEE62A005C941E /* pic.gif */,
+			);
+			path = demoPic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,6 +278,7 @@
 				1919C68819BE9486005C941E /* Images.xcassets in Resources */,
 				1919C6AD19BE960A005C941E /* lose.mp3 in Resources */,
 				1919C6BB19BED3B5005C941E /* background_f1.png in Resources */,
+				1919C6C219BEE62A005C941E /* pic.gif in Resources */,
 				1919C6A319BE950C005C941E /* jump_effect.atlas in Resources */,
 				1919C6AE19BE960A005C941E /* 故事_Have_not_been_to_me.mp3 in Resources */,
 				1919C6AB19BE960A005C941E /* hit.mp3 in Resources */,
